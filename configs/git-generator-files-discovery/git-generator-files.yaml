@@ -8,7 +8,7 @@ spec:
         repoURL: https://github.com/sorupujara92/harness-gitops-workshop.git  
         revision: HEAD  
         files:  
-        - path: "configs/git-generator-files-discovery/cluster-config/**/config.json"  
+        - path: "configs/git-generator-files-discovery/cluster-config/dev/config.json"  
   template:  
     metadata:  
       name: '{{cluster.namespace}}-podinfo'  
